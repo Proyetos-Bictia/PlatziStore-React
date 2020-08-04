@@ -1,0 +1,35 @@
+.routes__main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 65px auto auto;
+    grid-template-areas:
+        "above"
+        "middle"
+        "below";
+}
+
+#above {
+    grid-area: above;
+}
+
+#middle {
+    grid-area: middle;
+    width: 100vw;
+    background-color: #e7e7e7;
+}
+
+#below {
+    grid-area: below;
+}
+
+.routes__mainBottom {
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 90% 10%;
+}
+
+.routes__middelBottom {
+    background-color: #e7e7e7;
+}
